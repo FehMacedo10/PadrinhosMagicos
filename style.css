@@ -48,7 +48,7 @@ button:hover {
   height: 30vh;
 }
 .tituloEpisodios h2 {
-  font-size: 64px;
+  font-size: 60px;
 }
 
 main {
@@ -72,10 +72,10 @@ main {
   justify-content: space-around;
 }
 .episodios section h3 {
-  font-size: 36px;
+  font-size: 30px;
 }
 .episodios section p {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .episodios img:hover {
@@ -90,7 +90,7 @@ footer {
 }
 footer p {
   color: #fff;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: bold;
   margin: 20px;
 }/*# sourceMappingURL=style.css.map */
