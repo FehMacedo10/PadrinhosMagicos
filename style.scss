@@ -19,7 +19,7 @@ header {
         width: 30%;
         height: 10vh;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-items: center;
 
         button{
@@ -28,11 +28,11 @@ header {
             font-size: 32px;
             padding: 10px;
             border-radius: 10px;
+            transition: transform 0.3s ease;
         }
-        border-radius: 10px;
         .botaoVermelho {
             background-color: #DF0712;
-        }
+        }   
 
         .botaoPreto {
             background-color: transparent;
@@ -41,6 +41,9 @@ header {
     }
 }
 
+button:hover {
+    transform: scale(1.03);
+}
 .tituloEpisodios {
     display: flex;
     justify-content: space-around;
@@ -60,6 +63,10 @@ main {
 .episodios {
     display: flex;
     justify-content: space-evenly;
+    img {
+        transition: transform 0.5s ease;
+    }
+
     section {
         width: 30%;
         height: 70vh;
@@ -74,5 +81,22 @@ main {
         p {
             font-size: 24px;
         }
+    }
+}
+
+.episodios img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #111111;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    p {
+        color: #fff;
+        font-size: 36px;
+        font-weight: bold;
+        margin: 20px;
     }
 }
